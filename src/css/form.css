@@ -1,0 +1,16 @@
+textarea {
+  height: 80px;
+  width: 320px;
+  font-size: 16px;
+}
+
+input {
+  height: 20px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.form {
+  margin: 30px auto;
+  width: 400px;
+}
