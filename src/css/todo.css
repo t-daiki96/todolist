@@ -9,9 +9,6 @@
   color: red;
 }
 
-.title {
-  margin-right: 10px;
-}
 .done p {
   display: none;
 }
@@ -24,7 +21,7 @@
   opacity: 0.4;
 }
 
-.status {
+.status, .delete {
   cursor: pointer;
   padding: 8px 16px;
   background-color: #ccc;
@@ -32,8 +29,14 @@
   font-weight: bold;
   font-size: 0.75rem;
   border-radius: 2px;
+  margin-left: 10px;
+  width: 10;
 }
 
 li {
   list-style: none;
+}
+
+ul {
+  padding-inline-start: 0em;
 }
