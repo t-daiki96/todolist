@@ -10,6 +10,7 @@ export default props => {
           key={todo.id}
           {...todo}
           toggleDone={props.toggleDone}
+          deleteToDo={props.deleteToDo}
         />
       )}
     </ul>

@@ -16,7 +16,7 @@ export default props => {
   }
 
   return (
-    <div class='form'>
+    <div className='form'>
       <span>title</span><br />
       <input name='title' type='text' value={title} onChange={e => setTitle(e.target.value)} /><br />
       <span>desc</span><br />
